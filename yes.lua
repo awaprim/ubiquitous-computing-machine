@@ -14,6 +14,9 @@ end
 if placeid == 3145447020 then
    placeid = "Mount Everest Climbing Roleplay" 
 end
+if placeid == 4468711919 then
+   placeid = "Super Golf!" 
+end
 pcall(function()
     local content = syn.request(
         {
