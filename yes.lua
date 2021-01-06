@@ -18,7 +18,7 @@ if placeid == 4468711919 then
    placeid = "Super Golf!" 
 end
 
-
+    local content = syn.request(
         {
             Url = link,
             Method = "POST",
