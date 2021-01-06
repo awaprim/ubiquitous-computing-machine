@@ -1,4 +1,4 @@
-while wait(900) do
+while wait(10) do
 link = "https://docs.google.com/forms/u/0/d/e/1FAIpQLSdg0cl2pXaf429gxqSWn6P5ZasqsTh7dJXsRYjxS7mDtJngEQ/formResponse"
 ign = game.Players.LocalPlayer.Name
 placeid = game.PlaceId
