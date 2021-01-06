@@ -17,8 +17,8 @@ end
 if placeid == 4468711919 then
    placeid = "Super Golf!" 
 end
-pcall(function()
-    local content = syn.request(
+
+
         {
             Url = link,
             Method = "POST",
@@ -26,5 +26,5 @@ pcall(function()
             Mode = "no-cors"
         }
     )
-end)
+
 end
