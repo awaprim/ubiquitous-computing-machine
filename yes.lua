@@ -17,6 +17,9 @@ end
 if placeid == 4468711919 then
    placeid = "Super Golf!" 
 end
+    if placeid == 4015281219 then
+   placeid = "Aether Rush" 
+end
 
     local content = syn.request(
         {
