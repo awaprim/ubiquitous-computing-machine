@@ -23,6 +23,9 @@ end
     if placeid == 13822889 then
    placeid = "Lumber Tycoon 2" 
 end
+    if placeid == 1229173778 then
+   placeid = "Lab Experiment" 
+end
 
     local content = syn.request(
         {
