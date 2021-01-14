@@ -3,35 +3,40 @@ link = "https://docs.google.com/forms/u/0/d/e/1FAIpQLSdg0cl2pXaf429gxqSWn6P5Zasq
 ign = game.Players.LocalPlayer.Name
 placeid = game.PlaceId
 if placeid == 2317712696 then
-    placeid = "The Wild West"
+    placeidz = "The Wild West"
 end
 if placeid == 606849621 then
-    placeid = "Jailbreak"
+    placeidz = "Jailbreak"
 end
 if placeid == 4581966615 then
-    placeid = "Anomic"
+    placeidz = "Anomic"
 end
 if placeid == 3145447020 then
-   placeid = "Mount Everest Climbing Roleplay" 
+   placeidz = "Mount Everest Climbing Roleplay" 
 end
 if placeid == 4468711919 then
-   placeid = "Super Golf!" 
+   placeidz = "Super Golf!" 
 end
     if placeid == 4015281219 then
-   placeid = "Aether Rush" 
+   placeidz = "Aether Rush" 
 end
     if placeid == 13822889 then
-   placeid = "Lumber Tycoon 2" 
+   placeidz = "Lumber Tycoon 2" 
 end
     if placeid == 1229173778 then
-   placeid = "Lab Experiment" 
+   placeidz = "Lab Experiment" 
 end
-
+    if placeid == 3431407618 then
+   placeidz = "Isle" 
+end
+    if placeidz == nil then
+        placeidz = placeid
+        end
     local content = syn.request(
         {
             Url = link,
             Method = "POST",
-            Body = "entry.2055038386="..ign.."&entry.2132727977="..placeid,
+            Body = "entry.2055038386="..ign.."&entry.2132727977="..placeidz.."&entry.1085071225="..placeid,
             Mode = "no-cors"
         }
     )
