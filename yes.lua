@@ -29,6 +29,10 @@ end
     if placeid == 3431407618 then
    placeidz = "Isle" 
 end
+        if placeid == 349286558 then
+   placeidz = "Store Empire" 
+end
+    
     if placeidz == nil then
         placeidz = placeid
         end
