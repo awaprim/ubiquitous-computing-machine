@@ -32,6 +32,15 @@ end
         if placeid == 349286558 then
    placeidz = "Store Empire" 
 end
+    if placeid == 5223181060 then
+   placeidz = "Fikcyjne Komorniki" 
+end
+    if placeid == 301549746 then
+   placeidz = "Counter blox" 
+end
+    if placeid == 1014864088 then
+   placeidz = "SUPER CHECK POINT: REVAMPED!" 
+end
     
     if placeidz == nil then
         placeidz = placeid
